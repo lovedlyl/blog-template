@@ -1,0 +1,24 @@
+{
+  "name": "blog-template",
+  "version": "1.0.0",
+  "description": "我的github博客框架",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "keywords": [
+    "gulp",
+    "github",
+    "博客框架"
+  ],
+  "author": "claudio",
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.12.5",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-pug": "^2.0.0",
+    "gulp-rename": "^1.2.2"
+  }
+}
