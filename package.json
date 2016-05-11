@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/lovedlyl/imooc-learn-182.git"
+    "url": "git+https://github.com/lovedlyl/blog-template.git"
   },
   "keywords": [
     "imooc",
@@ -17,9 +17,9 @@
   "author": "claudio",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/lovedlyl/imooc-learn-182/issues"
+    "url": "https://github.com/lovedlyl/blog-template/issues"
   },
-  "homepage": "https://github.com/lovedlyl/imooc-learn-182#readme",
+  "homepage": "https://github.com/lovedlyl/blog-template#readme",
   "devDependencies": {
     "browser-sync": "^2.12.7",
     "gulp": "^3.9.1",
