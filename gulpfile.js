@@ -54,6 +54,6 @@ gulp.task("default", function() {
         server: "dist"
     });
 
-    gulp.watch("src/*.pug", ["convertPug"])
+    gulp.watch("src/*.pug", ["convertPug", reload])
 
 })
