@@ -1,0 +1,1 @@
+{"/home/claudio/Documents/blog-template/gulpfile.js":{"sha1":"d68e2bf64b1a88de275511b59c6707a7a135d50a","tasks":{"convertPug":{"name":"convertPug","dependencies":""},"lib":{"name":"lib","dependencies":""},"images":{"name":"images","dependencies":""},"default":{"name":"default","dependencies":""}}}}

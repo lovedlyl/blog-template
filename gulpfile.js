@@ -21,7 +21,8 @@ gulp.task("convertPug", function() {
 var lib = function() {
     // 样式
     gulp.src(["bower_components/bootstrap/dist/css/bootstrap.min.css",
-        "bower_components/bootstrap/dist/css/bootstrap.css"])
+            "bower_components/bootstrap/dist/css/bootstrap.css"
+        ])
         // .pipe(concat("bootstrap.css"))
         .pipe(gulp.dest("dist/styles"));
     // 字体文件
@@ -29,9 +30,7 @@ var lib = function() {
         .pipe(gulp.dest("dist/fonts"))
 
     // 脚本
-    gulp.src(["bower_components/jquery/dist/jquery.min.js",
-            "bower_components/bootstrap/dist/js/bootstrap.min.js"
-        ])
+    gulp.src(["bower_components/angular/angular.min.js"])
         .pipe(concat("bootstrap.js"))
         .pipe(gulp.dest("dist/scripts"))
 }
@@ -54,6 +53,8 @@ gulp.task("default", function() {
         server: "dist"
     });
 
-    gulp.watch("src/*.pug", ["convertPug", reload])
+    gulp.watch("src/*.pug", ["convertPug", reload]);
+    gulp.watch("dist/*.html").on("change", browserSync.reload);
+
 
 })
